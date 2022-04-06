@@ -56,12 +56,12 @@ namespace Clima_Api
             // 
             this.lbpuestadelsol.AutoSize = true;
             this.lbpuestadelsol.BackColor = System.Drawing.Color.Transparent;
-            this.lbpuestadelsol.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbpuestadelsol.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbpuestadelsol.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbpuestadelsol.Location = new System.Drawing.Point(269, 235);
+            this.lbpuestadelsol.Location = new System.Drawing.Point(269, 319);
             this.lbpuestadelsol.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbpuestadelsol.Name = "lbpuestadelsol";
-            this.lbpuestadelsol.Size = new System.Drawing.Size(58, 26);
+            this.lbpuestadelsol.Size = new System.Drawing.Size(67, 29);
             this.lbpuestadelsol.TabIndex = 30;
             this.lbpuestadelsol.Text = "N/A";
             // 
@@ -69,12 +69,12 @@ namespace Clima_Api
             // 
             this.lbpresion.AutoSize = true;
             this.lbpresion.BackColor = System.Drawing.Color.Transparent;
-            this.lbpresion.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbpresion.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbpresion.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbpresion.Location = new System.Drawing.Point(781, 145);
+            this.lbpresion.Location = new System.Drawing.Point(800, 202);
             this.lbpresion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbpresion.Name = "lbpresion";
-            this.lbpresion.Size = new System.Drawing.Size(58, 26);
+            this.lbpresion.Size = new System.Drawing.Size(67, 29);
             this.lbpresion.TabIndex = 29;
             this.lbpresion.Text = "N/A";
             // 
@@ -82,12 +82,12 @@ namespace Clima_Api
             // 
             this.lbviento.AutoSize = true;
             this.lbviento.BackColor = System.Drawing.Color.Transparent;
-            this.lbviento.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbviento.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbviento.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbviento.Location = new System.Drawing.Point(260, 400);
+            this.lbviento.Location = new System.Drawing.Point(791, 134);
             this.lbviento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbviento.Name = "lbviento";
-            this.lbviento.Size = new System.Drawing.Size(58, 26);
+            this.lbviento.Size = new System.Drawing.Size(67, 29);
             this.lbviento.TabIndex = 28;
             this.lbviento.Text = "N/A";
             // 
@@ -95,12 +95,12 @@ namespace Clima_Api
             // 
             this.lbamanecer.AutoSize = true;
             this.lbamanecer.BackColor = System.Drawing.Color.Transparent;
-            this.lbamanecer.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbamanecer.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbamanecer.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbamanecer.Location = new System.Drawing.Point(284, 145);
+            this.lbamanecer.Location = new System.Drawing.Point(269, 255);
             this.lbamanecer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbamanecer.Name = "lbamanecer";
-            this.lbamanecer.Size = new System.Drawing.Size(58, 26);
+            this.lbamanecer.Size = new System.Drawing.Size(67, 29);
             this.lbamanecer.TabIndex = 27;
             this.lbamanecer.Text = "N/A";
             this.lbamanecer.Click += new System.EventHandler(this.lbamanecer_Click);
@@ -109,12 +109,12 @@ namespace Clima_Api
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label9.Location = new System.Drawing.Point(71, 145);
+            this.label9.Location = new System.Drawing.Point(50, 255);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(122, 26);
+            this.label9.Size = new System.Drawing.Size(128, 29);
             this.label9.TabIndex = 26;
             this.label9.Text = "Amanecer";
             // 
@@ -122,12 +122,12 @@ namespace Clima_Api
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label8.Location = new System.Drawing.Point(71, 400);
+            this.label8.Location = new System.Drawing.Point(494, 134);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(94, 26);
+            this.label8.Size = new System.Drawing.Size(98, 29);
             this.label8.TabIndex = 25;
             this.label8.Text = " Viento";
             // 
@@ -135,12 +135,12 @@ namespace Clima_Api
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label7.Location = new System.Drawing.Point(472, 145);
+            this.label7.Location = new System.Drawing.Point(505, 202);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(95, 26);
+            this.label7.Size = new System.Drawing.Size(100, 29);
             this.label7.TabIndex = 24;
             this.label7.Text = "Presion";
             // 
@@ -148,22 +148,22 @@ namespace Clima_Api
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label3.Location = new System.Drawing.Point(71, 235);
+            this.label3.Location = new System.Drawing.Point(50, 319);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(165, 26);
+            this.label3.Size = new System.Drawing.Size(170, 29);
             this.label3.TabIndex = 22;
             this.label3.Text = "Puesta del sol";
             // 
             // btnbuscar
             // 
-            this.btnbuscar.Font = new System.Drawing.Font("Segoe Script", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnbuscar.Location = new System.Drawing.Point(499, 32);
-            this.btnbuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnbuscar.Font = new System.Drawing.Font("Yu Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnbuscar.Location = new System.Drawing.Point(547, 47);
+            this.btnbuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnbuscar.Name = "btnbuscar";
-            this.btnbuscar.Size = new System.Drawing.Size(169, 47);
+            this.btnbuscar.Size = new System.Drawing.Size(169, 33);
             this.btnbuscar.TabIndex = 20;
             this.btnbuscar.Text = "Buscar";
             this.btnbuscar.UseVisualStyleBackColor = true;
@@ -171,35 +171,36 @@ namespace Clima_Api
             // 
             // txtCiudad
             // 
-            this.txtCiudad.Location = new System.Drawing.Point(216, 47);
-            this.txtCiudad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCiudad.Location = new System.Drawing.Point(318, 45);
+            this.txtCiudad.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCiudad.Multiline = true;
             this.txtCiudad.Name = "txtCiudad";
-            this.txtCiudad.Size = new System.Drawing.Size(192, 22);
+            this.txtCiudad.Size = new System.Drawing.Size(192, 31);
             this.txtCiudad.TabIndex = 19;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Yu Gothic", 15.78947F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(70, 37);
+            this.label1.Location = new System.Drawing.Point(146, 45);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 33);
+            this.label1.Size = new System.Drawing.Size(164, 32);
             this.label1.TabIndex = 18;
-            this.label1.Text = "Ciudad";
+            this.label1.Text = "Pais/Cuidad";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label5.Location = new System.Drawing.Point(76, 320);
+            this.label5.Location = new System.Drawing.Point(50, 381);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(117, 26);
+            this.label5.Size = new System.Drawing.Size(127, 29);
             this.label5.TabIndex = 34;
             this.label5.Text = "Humedad";
             // 
@@ -207,12 +208,12 @@ namespace Clima_Api
             // 
             this.lbhumidity.AutoSize = true;
             this.lbhumidity.BackColor = System.Drawing.Color.Transparent;
-            this.lbhumidity.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbhumidity.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbhumidity.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbhumidity.Location = new System.Drawing.Point(260, 320);
+            this.lbhumidity.Location = new System.Drawing.Point(269, 381);
             this.lbhumidity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbhumidity.Name = "lbhumidity";
-            this.lbhumidity.Size = new System.Drawing.Size(58, 26);
+            this.lbhumidity.Size = new System.Drawing.Size(67, 29);
             this.lbhumidity.TabIndex = 35;
             this.lbhumidity.Text = "N/A";
             // 
@@ -220,38 +221,38 @@ namespace Clima_Api
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label10.Location = new System.Drawing.Point(455, 302);
+            this.label10.Location = new System.Drawing.Point(505, 337);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(246, 26);
+            this.label10.Size = new System.Drawing.Size(226, 29);
             this.label10.TabIndex = 36;
-            this.label10.Text = "Temperatura Maxima";
+            this.label10.Text = "Temperatura Max.";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label11.Location = new System.Drawing.Point(446, 400);
+            this.label11.Location = new System.Drawing.Point(505, 400);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(242, 26);
+            this.label11.Size = new System.Drawing.Size(223, 29);
             this.label11.TabIndex = 37;
-            this.label11.Text = "Temperatura Minima";
+            this.label11.Text = "Temperatura Min.";
             // 
             // lbtempmin
             // 
             this.lbtempmin.AutoSize = true;
             this.lbtempmin.BackColor = System.Drawing.Color.Transparent;
-            this.lbtempmin.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbtempmin.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbtempmin.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbtempmin.Location = new System.Drawing.Point(781, 400);
+            this.lbtempmin.Location = new System.Drawing.Point(800, 400);
             this.lbtempmin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbtempmin.Name = "lbtempmin";
-            this.lbtempmin.Size = new System.Drawing.Size(58, 26);
+            this.lbtempmin.Size = new System.Drawing.Size(67, 29);
             this.lbtempmin.TabIndex = 38;
             this.lbtempmin.Text = "N/A";
             // 
@@ -259,12 +260,12 @@ namespace Clima_Api
             // 
             this.lbtempmax.AutoSize = true;
             this.lbtempmax.BackColor = System.Drawing.Color.Transparent;
-            this.lbtempmax.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbtempmax.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbtempmax.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbtempmax.Location = new System.Drawing.Point(781, 302);
+            this.lbtempmax.Location = new System.Drawing.Point(800, 337);
             this.lbtempmax.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbtempmax.Name = "lbtempmax";
-            this.lbtempmax.Size = new System.Drawing.Size(58, 26);
+            this.lbtempmax.Size = new System.Drawing.Size(67, 29);
             this.lbtempmax.TabIndex = 39;
             this.lbtempmax.Text = "N/A";
             // 
@@ -272,12 +273,12 @@ namespace Clima_Api
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label6.Location = new System.Drawing.Point(472, 213);
+            this.label6.Location = new System.Drawing.Point(505, 273);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(150, 26);
+            this.label6.Size = new System.Drawing.Size(162, 29);
             this.label6.TabIndex = 40;
             this.label6.Text = "Temperatura";
             // 
@@ -285,18 +286,19 @@ namespace Clima_Api
             // 
             this.lbtemperatura.AutoSize = true;
             this.lbtemperatura.BackColor = System.Drawing.Color.Transparent;
-            this.lbtemperatura.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbtemperatura.Font = new System.Drawing.Font("Imprint MT Shadow", 15.78947F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbtemperatura.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbtemperatura.Location = new System.Drawing.Point(781, 213);
+            this.lbtemperatura.Location = new System.Drawing.Point(800, 273);
             this.lbtemperatura.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbtemperatura.Name = "lbtemperatura";
-            this.lbtemperatura.Size = new System.Drawing.Size(58, 26);
+            this.lbtemperatura.Size = new System.Drawing.Size(67, 29);
             this.lbtemperatura.TabIndex = 41;
             this.lbtemperatura.Text = "N/A";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(786, 12);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Location = new System.Drawing.Point(55, 96);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(246, 120);
             this.pictureBox1.TabIndex = 42;
@@ -306,7 +308,8 @@ namespace Clima_Api
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1127, 460);
+            this.BackColor = System.Drawing.Color.SteelBlue;
+            this.ClientSize = new System.Drawing.Size(982, 447);
             this.Controls.Add(this.lbtempmin);
             this.Controls.Add(this.lbtempmax);
             this.Controls.Add(this.label11);
@@ -327,9 +330,9 @@ namespace Clima_Api
             this.Controls.Add(this.lbamanecer);
             this.Controls.Add(this.lbhumidity);
             this.Controls.Add(this.lbpuestadelsol);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "App_Clima";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

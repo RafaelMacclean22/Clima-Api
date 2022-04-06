@@ -31,7 +31,7 @@ namespace Clima_Api
             day = day.AddSeconds(sec).ToLocalTime();
             return day;
         }
-        void Busqueda()
+        void Buscar()
         {
             using (WebClient web = new WebClient())
             {
@@ -41,7 +41,7 @@ namespace Clima_Api
                 var json = web.DownloadString(url);
                 Clima.root info = JsonConvert.DeserializeObject<Clima.root>(json);
 
-                pictureBox1.ImageLocation = "https://openweathermap.org/img/w/04n.png" + info.weather[0].icon + ".png";
+                pictureBox1.ImageLocation = "https://openweathermap.org/img/w/" + info.weather[0].icon + ".png";
                 lbpuestadelsol.Text = convertdatetime(info.sys.sunset).ToShortTimeString();
                 lbamanecer.Text = convertdatetime(info.sys.sunrise).ToShortTimeString();
                 lbviento.Text = (info.wind.speed * 3.6).ToString();
@@ -56,7 +56,7 @@ namespace Clima_Api
 
         private void btnbuscar_Click(object sender, EventArgs e)
         {
-            Busqueda();
+            Buscar();
         }
 
         private void lbamanecer_Click(object sender, EventArgs e)
