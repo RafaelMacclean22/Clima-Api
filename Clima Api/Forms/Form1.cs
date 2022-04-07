@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Domain.Entities;
+using Clima_Api.Clases;
 
 namespace Clima_Api
 {
@@ -44,11 +45,11 @@ namespace Clima_Api
                 pictureBox1.ImageLocation = "https://openweathermap.org/img/w/" + info.weather[0].icon + ".png";
                 lbpuestadelsol.Text = convertdatetime(info.sys.sunset).ToShortTimeString();
                 lbamanecer.Text = convertdatetime(info.sys.sunrise).ToShortTimeString();
-                lbviento.Text = (info.wind.speed * 3.6).ToString();
+                lbviento.Text = Conversiones.ConvertirDeMillasAKm((float)info.wind.speed).ToString();
                 lbpresion.Text = info.main.pressure.ToString();
-                lbtemperatura.Text = (info.main.temp - 273.15).ToString();
-                lbtempmin.Text = (info.main.temp_min - 273.15).ToString();
-                lbtempmax.Text = (info.main.temp_max - 273.15).ToString();
+                lbtemperatura.Text = Conversiones.ConvertirDeKelvinACelsius((float)info.main.temp).ToString();
+                lbtempmin.Text = Conversiones.ConvertirDeKelvinACelsius((float)info.main.temp_min).ToString();
+                lbtempmax.Text = Conversiones.ConvertirDeKelvinACelsius((float)info.main.temp_max).ToString();
                 lbhumidity.Text = info.main.humidity.ToString();
             }
         }
@@ -56,7 +57,15 @@ namespace Clima_Api
 
         private void btnbuscar_Click(object sender, EventArgs e)
         {
-            Buscar();
+            try
+            {
+                Buscar();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("No se encontro la ciudad ");
+            }
+           
         }
 
         private void lbamanecer_Click(object sender, EventArgs e)
